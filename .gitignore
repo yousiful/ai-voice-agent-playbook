@@ -1,0 +1,21 @@
+# Filled prompts and real variables, keep these out of git
+out/
+vars.json
+*.filled.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1200 340" width="1200" height="340" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#141b33"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ffd54a"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="340" rx="22" fill="url(#bg)"/>
+
+  <text x="600" y="48" text-anchor="middle" fill="#ffffff" font-size="24" font-weight="700">Prompts for AI phone agents that survive real calls.</text>
+  <text x="600" y="78" text-anchor="middle" fill="#8f9bc4" font-size="16">Four templates, a linter, and a launch checklist. Works with GoHighLevel Voice AI, Retell, Vapi and Bland.</text>
+
+  <!-- Panel 1: template -->
+  <rect x="60" y="104" width="300" height="168" rx="16" fill="#1b2442" stroke="#2c3866" stroke-width="1.5"/>
+  <text x="210" y="136" text-anchor="middle" fill="#ffd54a" font-size="14" font-weight="700">1. PICK A TEMPLATE</text>
+  <text x="210" y="172" text-anchor="middle" fill="#ffffff" font-size="15">appointment-setter</text>
+  <text x="210" y="196" text-anchor="middle" fill="#ffffff" font-size="15">closer</text>
+  <text x="210" y="220" text-anchor="middle" fill="#ffffff" font-size="15">receptionist</text>
+  <text x="210" y="244" text-anchor="middle" fill="#ffffff" font-size="15">reactivation</text>
+
+  <line x1="364" y1="188" x2="416" y2="188" stroke="#ffd54a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Panel 2: fill -->
+  <rect x="420" y="104" width="360" height="168" rx="16" fill="#1b2442" stroke="#2c3866" stroke-width="1.5"/>
+  <text x="600" y="136" text-anchor="middle" fill="#ffd54a" font-size="14" font-weight="700">2. FILL YOUR DETAILS</text>
+  <text x="600" y="176" text-anchor="middle" fill="#8f9bc4" font-size="14" font-family="Consolas, monospace">{{business_name}}</text>
+  <text x="600" y="198" text-anchor="middle" fill="#8f9bc4" font-size="14" font-family="Consolas, monospace">{{calendar_time_zone}}</text>
+  <text x="600" y="220" text-anchor="middle" fill="#8f9bc4" font-size="14" font-family="Consolas, monospace">{{transfer_number}}</text>
+  <text x="600" y="250" text-anchor="middle" fill="#ffffff" font-size="14">python fill.py</text>
+
+  <line x1="784" y1="188" x2="836" y2="188" stroke="#ffd54a" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Panel 3: lint -->
+  <rect x="840" y="104" width="300" height="168" rx="16" fill="#1b2442" stroke="#2c3866" stroke-width="1.5"/>
+  <text x="990" y="136" text-anchor="middle" fill="#ffd54a" font-size="14" font-weight="700">3. LINT IT</text>
+  <text x="990" y="196" text-anchor="middle" fill="#4ade80" font-size="44" font-weight="800">100/100</text>
+  <text x="990" y="232" text-anchor="middle" fill="#8f9bc4" font-size="14">10 sections, no red flags</text>
+  <text x="990" y="254" text-anchor="middle" fill="#8f9bc4" font-size="14">python lint_prompt.py</text>
+
+  <text x="600" y="312" text-anchor="middle" fill="#8f9bc4" font-size="14">Then run the 8-point checklist before you take real calls.</text>
+</svg>

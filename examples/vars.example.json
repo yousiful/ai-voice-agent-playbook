@@ -1,0 +1,16 @@
+{
+  "business_name": "Acme Roofing",
+  "agent_name": "Riley",
+  "contact_first_name": "Sam",
+  "offer": "free roof inspection",
+  "business_hours": "Monday to Friday, 8 am to 5 pm",
+  "calendar_name": "Acme Roofing Inspections",
+  "calendar_time_zone": "America/Chicago",
+  "transfer_number": "+1 555 010 0100",
+  "callback_number": "+1 555 010 0100",
+  "pricing": "Inspections are free. Repair and replacement quotes are given on site by the estimator.",
+  "payment_link": "https://example.com/pay/acme-deposit",
+  "faq": "We serve the greater Springfield area. We repair and replace shingle, metal and flat roofs. Most inspections take about 45 minutes. We are licensed and insured.",
+  "last_contact_context": "asked about a roof inspection last spring",
+  "owner_name": "Jordan"
+}
